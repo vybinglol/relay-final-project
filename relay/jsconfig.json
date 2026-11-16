@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    // '@/' alias so shadcn components can resolve src/ imports
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
